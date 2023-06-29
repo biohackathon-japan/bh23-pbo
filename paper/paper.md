@@ -41,7 +41,7 @@ git_url: https://github.com/biohackathon-jp/bh23-report-template
 authors_short: First Author \emph{et al.}
 ---
 
-# Background
+# Abstract
 
 The need of standardizing the language used within a community has been recognized as one of the major components to enable a better integration of data as well as their further analysis. The plant breeding community makes use of a very specialized language, which has been evolving according to the new technologies and needs of their final users (e.g. farmers). That community is disparate all over the world. Therefore, a translation of the most common used terms has always been a key asset to accomplish their objectives as well as the ones of their collaborators. Here, we present PBO (Plant Breeding Ontology), an ontology for the plant breeding community which captures core 80 terms in 4 different languages: English (main language), Spanish, French, Dutch, German and Japanese, as well as their definitions, synonyms, derived terms and samples of their usage. PBO has been built partially manually and semiautomatically.
 
@@ -55,7 +55,78 @@ Another important motivation for improving PBO came from the BioHackathon 2023 t
 
 This document is organized as follows: an introductory section (this section), which spells out the motivation and reasons on embarking on improving PBO; a methods section, which details how the ontology was built; an outcomes section, which summarizes the product features; and finally, the future work section delineates the next steps for the follow up of the ontology.
 
-# Outcomes
+# Methods
+
+a) Motivation and prospective users
+
+The motivation for building an ontology about plant breeding is outlined in the introduction section; briefly, the need arises from better supporting the work of plant breeding actors:
+
+  - seed growers,
+  - plant breeders,
+  - field testers,
+  - wet-lab scientist,
+  - dry-lab scientists (e.g. computational life scientists).
+
+Although PBO is targeted to mainly support the activities of those prospective users, it could also be employed by other users or groups of people, for instance:
+
+  - agronomists,
+  - students (e.g. biology, biochemistry, terminology, computer sciences)
+  - lawyers dealing with plant variety protection aspect,
+  - regulatory affairs officers,
+  - intellectual property counselors.
+
+Given that the ontology is specialized, it might not be useful or informative for other groups of people (e.g. pilot, pediatrician). Nevertheless, it might be still hold terms that to some extend are found in the intersection of some domains. For instance, a pediatrician who works on particular genetic diseases might find terms relevant to his/her domain (e.g. mutant). The vast majority of users of PBO is expected to belong to: 
+
+  1. the group of specialists in the domain who are formalizing their knowledge, refreshing it, or simply catching up with not-know terms
+  2. the people who is relatively new to the plant breeding domain who have to learn the language of their colleagues, collaborators, or others.
+
+b) Terms compilation and selection
+
+The terminology of a specialized domain, such as plant breeing, is typically found in specialized literature (e.g., scientific articles) or specialized resources (e.g. databases). All terms considered in this work were collected from scientific publications within the plant breeding domain (see Table 1). The identification of candidate terms for the ontology was mainly driven by the author's experience and exposure to the plant-breeding domain. The  candidate terms cover diverse sub-domains within the plant-breeding field (e.g. breeding methods, genetics). Currently, PBO currently captures 80 core entries, which were picked up based on the following criteria (in order or importance):
+
+  - The term serves as a “hub concept”, i.e. connects several other related concepts.
+  - The term is found in most introductory and advanced literature about plant breeding.
+  - The term is relevant for our current activities.
+
+The “dumping out” of terms has been manually done: going through selected sections of the available material, then highlighting the nouns, adjectives and adverbs relevant to the field and according to the criteria stated above, then adding them into a graph of concepts (see map of concepts).
+
+The compilation of the candidate terms produced several terms that were repeated (identical lexemes) and terms that were synonyms of other terms that had been already captured. In those cases, the terms were unified and only one representative was kept. During the compilation, several acronyms appeared often in the literature (e.g. SNP). The most frequent were considered in this work.
+
+The selection of the 80 key terms ensures a balanced coverage of the various sub-domains represented in the resulting compilation. Some terms are very specialized to the domain (e.g., cultivar), while others are more generic (e.g., gene). 
+
+The Network of Concepts (NoC) was designed so that there are no isolated entries, that is, all of them are somehow connected. Such a connectivity strategy enables to “hop” from one entry to another one through related concepts.
+
+Some nodes have more than 1 relationship connecting it to other terms; however, there are no nodes with more than one hierarchical link to a second generic node.
+
+All the encircled nodes (80 in total) in the NoC are currently part of PBO. The rest (around 170) provide not only a context for the encircled nodes but also complementary information. Image 2 depicts the entire network (due to its complexity and size, it is recommended to instead check the supplementary material to view the details thereof).
+
+Organizing the concepts in a graph was essential to fulfill one of the aims of this work: categorize the entries in the ontology. 
+
+d) Finding a definition for each concept
+
+Several resources (see Table 2) were used to gather the definitions corresponding to the entries in PBO. Most of the ontology term definitions were collected from online resources, with the exception of a few hard-copy resources.
+
+All the 80 key terms have a definition and a reference, which links the entry to the source of the definition itself. None of the definitions was adapted (i.e. changed).
+
+e) Synonyms and derived terms
+
+Systematic searches in dictionaries and online resources were manually performed in order to look up for synonyms as well as derived terms for each one of the 80 selected key entries. PBO has synonyms for more than 30 entries and derivatives for 12 entries.
+
+f) A sample context
+
+A sentence showing the usage of each term has been collected. The source of those examples is listed in Table 1. Each sentence has been carefully reviewed so that it belongs to the main domain: plant breeding. 
+
+g) A manual compilation empowered by automatic retrieval 
+
+All terms, their definitions, their synonyms an derived terms were manually collected. The network of concepts has also been manually built (terms plus relationships). During the entire process, various validations steps were included to ensure a high quality of the resulting product. Most of those validation steps were automatically done (computationally developed) to deal with aspects such a term duplication, consistency of identifiers, generation of reports based on the master data file, uniformity, ordering, formatting, etc.
+
+Automatic tools (not yet publically available) were developed to support the compilation of the context samples and collocations. Also, those tools supported the automatic retrieval (from sources such as PubMed, WordNet, IATE, dict.org) of terms as well as the quality checks (e.g. consistency).
+
+Another motivation for automatizing some parts of the process came from the fact that this ontology is expected to continue growing. Therefore, even thought it has taken a lot of time to develop such automatized solutions, future improvements will be facilitated. On the one hand, a more advanced natural language processing could improve the glossary building process.
+
+Relying on automatic tools could be risky; thus, a manual curation component as part of the process should be envisaged.
+
+# Results
 
 1. The 80 core records capture the entries currently held in PBO. All entries have an ID of the form: PBO:nnnnnnn, where nnnnnnn corresponds to a unique number. It is important to note that even though almost all entries are nouns, most of them can also be employed as adjectives with no modification (e.g. inbreeding, mutant). Moreover, some entries may also be used as verbs (e.g. to plant, to phenotype). A separate property captures the term translations in five languages (Spanish, French, Dutch, German, and Japanese) for each record. Each one of the 80 core records has a definition as well as a reference, which corresponds to the source from where the definition was taken (see Table 2). Some entries include synonyms as well as acronyms (which for the sake of simplicity are captured within the same group). Finally, each entry provides a sample context text, where the term (or an inflection thereof) is employed (see excel file).
 
