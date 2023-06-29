@@ -1,28 +1,39 @@
 ---
-title: 'BioHackJP 2023 Report R1: linked data standardization with LLMs'
-title_short: 'BioHackJP 2023 LD-LLM'
+title: 'The Plant Breeding Ontology (PBO): towards an ontology for the plant breeding community'
+title_short: 'The Plant Breeding Ontology (PBO)'
 tags:
   - Linked Data
-  - Large Language Models
+  - Plant Breeding
+  - Bio-Ontology
 authors:
-  - name: First Author
-    orcid: 0000-0000-0000-0000
+  - name: Erick Antezana
+    orcid: 0000-0002-2497-8236
     affiliation: 1
-  - name: Last Author
-    orcid: 0000-0000-0000-0000
+  - name: Hiromi Kajiya-Kanegae
+    orcid: 0000-0002-5719-7559
     affiliation: 2
+  - name: Maria Gomez
+    orcid: 0000-0003-2549-5807
+    affiliation: 3
+  - name: Shuichi Kawashima
+    orcid: 0000-0001-7883-3756
+    affiliation: 4
 affiliations:
-  - name: First Affiliation
+  - name: UN - International Computing Center (UNICC)
     index: 1
-  - name: Second Affiliation
+  - name: Research Center for Agricultural Information Technology (NARO)
     index: 2
+  - name: Database Center for Life Science, Joint Support-Center for Data Science Research, Research Organization of Information and Systems
+    index: 3
+  - name: Computational Bioscience Research Center (CBRC), King Abdullah University of Science and Technology (KAUST)
+    index: 4
 date: 30 June 2023
 cito-bibliography: paper.bib
 event: BH23JP
 biohackathon_name: "BioHackathon Japan 2023"
 biohackathon_url:   "https://2023.biohackathon.org/"
 biohackathon_location: "Kagawa, Japan, 2023"
-group: R1
+group: R3
 # URL to project git repo --- should contain the actual paper.md:
 git_url: https://github.com/biohackathon-jp/bh23-report-template
 # This is the short authors description that is used at the
@@ -32,23 +43,19 @@ authors_short: First Author \emph{et al.}
 
 # Background
 
-The field of bioinformatics plays a crucial role in enabling researchers to extract meaningful insights from the vast amount of biological data generated today. With advancements in technology and the availability of large-scale datasets, it has become increasingly important to develop standardized approaches for representing and integrating biological information. Linked data, a method for publishing structured data on the web, has emerged as a promising solution for facilitating the integration and interoperability of diverse biological data sources.
-
-The BioHackathon 2023, held in Japan, provided an ideal platform for researchers and bioinformatics enthusiasts to collaborate and explore innovative solutions to address the challenges in the field. Our project focused on the application of Linked Data and Large Language Models (LLMs) to standardize biological data and enhance its accessibility and usability.
-
-LLMs, such as OpenAI's GPT-3.5 architecture, have demonstrated remarkable capabilities in understanding and generating human-like text. Leveraging the power of LLMs, we aimed to automate the process of extracting relevant biological terms from unstructured text and mapping them to existing ontology terms. Ontologies, which are hierarchical vocabularies of terms and their semantic relationships, provide a standardized framework for organizing and categorizing biological concepts.
+The need of standardizing the language used within a community has been recognized as one of the major components to enable a better integration of data as well as their further analysis. The plant breeding community makes use of a very specialized language, which has been evolving according to the new technologies and needs of their final users (e.g. farmers). That community is disparate all over the world. Therefore, a translation of the most common used terms has always been a key asset to accomplish their objectives as well as the ones of their collaborators. Here, we present PBO (Plant Breeding Ontology), an ontology for the plant breeding community which captures core 80 terms in 4 different languages: English (main language), Spanish, French, Dutch, German and Japanese, as well as their definitions, synonyms, derived terms and samples of their usage. PBO has been built partially manually and semiautomatically.
 
 # Outcomes
 
-To achieve our objectives, we conducted a comprehensive survey of open source language models available and evaluated their suitability for our task. We explored different models, taking into consideration factors such as performance, computational requirements, and ease of deployment. Subsequently, we sought to run the selected models on a local computer, ensuring that the infrastructure requirements were met.
+1.The 80 core records capture the entries currently held in PB. All entries have an ID of the form: PBO:nnnnnnn, where nnnnnnn corresponds to a unique number. It is important to note that even though almost all entries are nouns, most of them can also be employed as adjectives with no modification (e.g. inbreeding, mutant). Moreover, some entries may also be used as verbs (e.g. to plant, to phenotype). A separate property captures the term translations in five languages (Spanish, French, Dutch, German, and Japanese) for each record. Each one of the 80 core records has a definition as well as a reference, which corresponds to the source from where the definition was taken (see Table 2). Some entries include synonyms as well as acronyms (which for the sake of simplicity are captured within the same group). Finally, each entry provides a sample context text, where the term (or an inflection thereof) is employed (see excel file).
 
-Having established a working environment for LLMs, we developed a set of pipelines that incorporated various natural language processing techniques to extract relevant biological terms from textual data. These terms were then matched and mapped to the corresponding ontology terms, thereby providing a standardized representation of the extracted information. By utilizing Linked Data principles, we aimed to create an interconnected network of biological knowledge that would facilitate data integration and enable advanced analysis.
+2. An ontology, named PBO, holding 80 core entries has been produced. This ontology aims at filling a gap in the plant breeding community in a way that the terminology could be findable, accessible and reusable. PBO is not intended to compete with ontologies from authoritative bodies or similar resources (e.g. Food and Agriculture Organization [ref], IATE [ref]); on the contrary, it aims at complementing them by providing specially a categorical view of the terminology, which could be used in various languages and enable a better communication among the actors within the plant breeding community. PBO is currently available in OBO and RDF formats - an excel dump is as well available (see supplementary material) so that it could be easily reused, extended and shared. Building this ontology with the aid of specialized computational tools not only fostered the development of the terminological resources but also contributed to their quality and future enrichement.
 
 ![Caption for BioHackrXiv logo figure](./biohackrxiv.png)
 
 # Future work
 
-Moving forward, there are several areas of potential future work to enhance our project's linked data standardization with LLMs. First, exploring advanced LLMs and optimizing computational efficiency can improve performance. Additionally, expanding ontology mapping to cover more domains and integrating external data sources would increase the scope of our standardization efforts. Validating and evaluating results against gold-standard datasets, involving domain experts, and developing a user-friendly interface for researchers to interact with the pipelines are crucial next steps. These future endeavors will refine and advance our methodology, increasing its impact and adoption in bioinformatics.
+The resulting network of concepts amounts to almost 2500 entries (see the NoC in the supplementary data). We expect to cover, in the near future, the entries that were not taken into account in this improvement phase and to come up with a sounder ontology. PBO will be made available in a public ontology repository (e.g. EBI RDF platform), so that it could get improved by experts in the field. The automatic tools that were implemented will be improved and ideally published as a complementary material to the ontology. 
 
 ## Acknowledgements
 
