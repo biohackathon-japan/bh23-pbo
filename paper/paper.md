@@ -148,6 +148,8 @@ All the 80 key terms have a definition and a reference, which links the entry to
 | REF:0000026 | The Encyclopedia of Seeds : Science, Technology and Uses | Bewley J, Black M, Halme P. ISBN-13: 9780851997230 (1st Ed) |
 | REF:0000027 | The United Nations Terminology Database (UNTERM) | http://untermportal.un.org/portal/welcome |
 
+Table: Sources of the definitions for the entries in PBO. The first column provides a unique code used in the glossary to link entry definitions to their source. The second column shows the name of the resource. The third column provides either the URL of the online resource or the book details. 
+
 e) Synonyms and derived terms
 
 Systematic searches in dictionaries and online resources were manually performed in order to look up for synonyms as well as derived terms for each one of the 80 selected key entries. PBO has synonyms for more than 30 entries and derivatives for 12 entries.
