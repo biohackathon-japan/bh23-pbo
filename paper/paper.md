@@ -136,7 +136,7 @@ Another motivation for automatizing some parts of the process came from the fact
 
 Relying only on automatic tools could be risky; thus, a manual curation component as part of the process should be still be part of the maintenance process.
 
-![Fig. 3](./pbo_pipeline.png)
+![Fig. 3](./PBO_pipeline.png)
 
 # Results
 
