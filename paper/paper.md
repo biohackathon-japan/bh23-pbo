@@ -82,7 +82,7 @@ Given that the ontology is specialized, it might not be useful or informative fo
 
 b) Terms compilation and selection
 
-The terminology of a specialized domain, such as plant breeing, is typically found in specialized literature (e.g., scientific articles) or specialized resources (e.g. databases). All terms considered in this work were collected from scientific publications within the plant breeding domain (see Table 1). The identification of candidate terms for the ontology was mainly driven by the author's experience and exposure to the plant-breeding domain. The  candidate terms cover diverse sub-domains within the plant-breeding field (e.g. breeding methods, genetics). Currently, PBO currently captures 80 core entries, which were picked up based on the following criteria (in order or importance):
+The terminology of a specialized domain, such as plant breeing, is typically found in specialized literature (e.g., scientific articles) or specialized resources (e.g. databases). All terms considered in this work were collected from scientific publications within the plant breeding domain (see refs by Hiromi). The identification of candidate terms for the ontology was mainly driven by the author's experience and exposure to the plant-breeding domain. The  candidate terms cover diverse sub-domains within the plant-breeding field (e.g. breeding methods, genetics). Currently, PBO currently captures 80 core entries, which were picked up based on the following criteria (in order or importance):
 
   - The term serves as a “hub concept”, i.e. connects several other related concepts.
   - The term is found in most introductory and advanced literature about plant breeding.
@@ -118,13 +118,20 @@ Several resources (see Table 2) were used to gather the definitions correspondin
 
 All the 80 key terms have a definition and a reference, which links the entry to the source of the definition itself. None of the definitions was adapted (i.e. changed).
 
+| Ref. Code | Source Name | Details |
+| -------- | -------- | -------- |
+| REF:0000001 | Random House Unabridged Dictionary | http://dictionary.infoplease.com/ |
+| REF:0000002 | Wiktionary | http://en.wiktionary.org/wiki/Wiktionary:Main_ Page |
+| REF:0000003 | Oxford Dictionaries | http://www.oxforddictionaries.com/ |
+| REF:0000004 | American Heritage Dictionary of the English Language, 4th edition | http://americanheritage.yourdictionary.com |
+
 e) Synonyms and derived terms
 
 Systematic searches in dictionaries and online resources were manually performed in order to look up for synonyms as well as derived terms for each one of the 80 selected key entries. PBO has synonyms for more than 30 entries and derivatives for 12 entries.
 
 f) A sample context
 
-A sentence showing the usage of each term has been collected. The source of those examples is listed in Table 1. Each sentence has been carefully reviewed so that it belongs to the main domain: plant breeding. 
+A sentence showing the usage of each term has been collected. The source of those examples is (refs by Hiromi). Each sentence has been carefully reviewed so that it belongs to the main domain: plant breeding. 
 
 g) A manual compilation empowered by automatic retrieval 
 
