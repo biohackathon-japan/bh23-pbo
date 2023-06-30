@@ -140,10 +140,13 @@ All the 80 key terms have a definition and a reference, which links the entry to
 | REF:0000018 | WordNet | https://wordnet.princeton.edu/ |
 | REF:0000019 | GeneReviews | Pagon RA, Adam MP, Ardinger HH, et al., editors. Seattle (WA): University of Washington, Seattle; 1993-2015. |
 | REF:0000020 | Convention on Biological Diversity | http://www.cbd.int/ |
-| REF:0000021 | Intellectual Property. International Seed Federation. | http://www.worldseed.org/isf/intellectual_prope rty.html |
+| REF:0000021 | Intellectual Property. International Seed Federation. | http://www.worldseed.org/isf/intellectual_property.html |
 | REF:0000022 | FAO TERM PORTAL | http://www.fao.org/faoterm/en/ |
 | REF:0000023 | Biology-Online Dictionary | http://www.biology-online.org/dictionary/ |
 | REF:0000024 | Glossary of Biotechnology for Food and Agriculture - A Revised and Augmented Edition of the Glossary of Biotechnology and Genetic Engineering | Food and Agriculture Organization of the United Nations. ISSN 1020-0541 |
+| REF:0000025 | Dictionary of Forestry | http://dictionaryofforestry.org/ |
+| REF:0000026 | The Encyclopedia of Seeds : Science, Technology and Uses | Bewley J, Black M, Halme P. ISBN-13: 9780851997230 (1st Ed) |
+| REF:0000027 | The United Nations Terminology Database (UNTERM) | http://untermportal.un.org/portal/welcome |
 
 e) Synonyms and derived terms
 
