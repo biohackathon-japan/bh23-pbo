@@ -108,7 +108,7 @@ Some nodes have more than 1 relationship connecting it to other terms; however, 
 
 All the encircled nodes (80 in total) in the NoC are currently part of PBO. The rest (around 170) provide not only a context for the encircled nodes but also complementary information. Figure 2 depicts the entire network (due to its complexity and size, it is recommended to instead check the supplementary material to view the details thereof).
 
-![Fig. 2](./map_plant_breeding_v5.pdf)
+![Fig. 2](./map_plant_breeding_v5.png)
 
 Organizing the concepts in a graph was essential to fulfill one of the aims of this work: categorize the entries in the ontology. 
 
