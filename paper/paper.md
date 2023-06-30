@@ -96,9 +96,9 @@ The selection of the 80 key terms ensures a balanced coverage of the various sub
 
 c) Network of concepts (NoC)
 
-During the “dumping out” process, each candidate term was systematically added to a network of concepts. That network not only captured the terms themselves but also the relationships amongst them. Therefore, related terms were connected through a relationships which could either be hierarchical (sub-type) or simply connectional (i.e. there is a relation between the two terms, which is not hierarchical). Figure 1 shows a part of the network of concepts (NoC).
+During the “dumping out” process, each candidate term was systematically added to a network of concepts. That network not only captured the terms themselves but also the relationships amongst them. Therefore, related terms were connected through a relationships which could either be hierarchical (sub-type) or simply connectional (i.e. there is a relation between the two terms, which is not hierarchical). [fig1] shows a part of the network of concepts (NoC).
 
-![Fig. 1](./PBO_NoC_snip.png)
+![A small section of the entire Network of Concepts (NoC) showing a few nodes (e.g. plant variety) and their relationships. Solid arrows denote a hierarchical relationship. Dotted lines denote a non-hierarchical relationship. Encircled terms are part of PLABREGLO. \label{fig1}](./PBO_NoC_snip.png)
 
 The plant-breeding network of concepts should be read from the top to the down for having a better overview of each entry and its conceptual neighborhood. Concepts that are at the same level of importance or that are somehow comparable are shown at the same horizontal level. On the one hand, the dotted lines between two nodes denote that there is a non-hierarchical relation between them (e.g. is involved in). On the other hand, the arrows connection two nodes denote a subtyping (hierarchical) relation. For the sake of readability, some nodes (shown in red) were duplicated. The length of each relationship has no meaning at all. However, the closer two entries that are connected to the same 3rd entry, the more related they are. 
 
