@@ -96,9 +96,9 @@ The selection of the 80 key terms ensures a balanced coverage of the various sub
 
 c) Network of concepts (NoC)
 
-During the “dumping out” process, each candidate term was systematically added to a network of concepts. That network not only captured the terms themselves but also the relationships amongst them. Therefore, related terms were connected through a relationships which could either be hierarchical (sub-type) or simply connectional (i.e. there is a relation between the two terms, which is not hierarchical). [fig1] shows a part of the network of concepts (NoC).
+During the “dumping out” process, each candidate term was systematically added to a network of concepts. That network not only captured the terms themselves but also the relationships amongst them. Therefore, related terms were connected through a relationships which could either be hierarchical (sub-type) or simply connectional (i.e. there is a relation between the two terms, which is not hierarchical). [Fig1] shows a part of the network of concepts (NoC).
 
-![A small section of the entire Network of Concepts (NoC) showing a few nodes (e.g. plant variety) and their relationships. Solid arrows denote a hierarchical relationship. Dotted lines denote a non-hierarchical relationship. Encircled terms are part of PLABREGLO. \label{fig1}](./PBO_NoC_snip.png)
+![A small section of the entire Network of Concepts (NoC) showing a few nodes (e.g. plant variety) and their relationships. Solid arrows denote a hierarchical relationship. Dotted lines denote a non-hierarchical relationship. Encircled terms are part of PLABREGLO. \label{Fig1}](./PBO_NoC_snip.png)
 
 The plant-breeding network of concepts should be read from the top to the down for having a better overview of each entry and its conceptual neighborhood. Concepts that are at the same level of importance or that are somehow comparable are shown at the same horizontal level. On the one hand, the dotted lines between two nodes denote that there is a non-hierarchical relation between them (e.g. is involved in). On the other hand, the arrows connection two nodes denote a subtyping (hierarchical) relation. For the sake of readability, some nodes (shown in red) were duplicated. The length of each relationship has no meaning at all. However, the closer two entries that are connected to the same 3rd entry, the more related they are. 
 
@@ -106,9 +106,9 @@ The NoC was designed so that there are no isolated entries, that is, all of them
 
 Some nodes have more than 1 relationship connecting it to other terms; however, there are no nodes with more than one hierarchical link to a second generic node.
 
-All the encircled nodes (80 in total) in the NoC are currently part of PBO. The rest (around 170) provide not only a context for the encircled nodes but also complementary information. Figure 2 depicts the entire network (due to its complexity and size, it is recommended to instead check the supplementary material to view the details thereof).
+All the encircled nodes (80 in total) in the NoC are currently part of PBO. The rest (around 170) provide not only a context for the encircled nodes but also complementary information. Fig2 depicts the entire network (due to its complexity and size, it is recommended to instead check the supplementary material to view the details thereof).
 
-![Fig. 2](./map_plant_breeding_v5.png)
+![The entire Network of Concepts (NoC) showing on the one hand the nodes and their relationships, and on the other hand, the complexity of the concepts. The NoC currently holds around 250 nodes, 80 thereof are part of the key core terms in PBO. \label{Fig2}](./map_plant_breeding_v5.png)
 
 Organizing the concepts in a graph was essential to fulfill one of the aims of this work: categorize the entries in the ontology. 
 
@@ -128,7 +128,7 @@ A sentence showing the usage of each term has been collected. The source of thos
 
 g) A manual compilation empowered by automatic retrieval 
 
-All terms, their definitions, their synonyms an derived terms were manually collected. The network of concepts has also been manually built (terms plus relationships). During the entire process, various validations steps were included to ensure a high quality of the resulting product (see Fig.3). Most of those validation steps were automatically done (computationally developed) to deal with aspects such a term duplication, consistency of identifiers, generation of reports based on the master data file, uniformity, ordering, formatting, etc.
+All terms, their definitions, their synonyms an derived terms were manually collected. The network of concepts has also been manually built (terms plus relationships). During the entire process, various validations steps were included to ensure a high quality of the resulting product (see Fig3). Most of those validation steps were automatically done (computationally developed) to deal with aspects such a term duplication, consistency of identifiers, generation of reports based on the master data file, uniformity, ordering, formatting, etc.
 
 Automatic tools (not yet publically available) were developed to support the compilation of the context samples and collocations. Also, those tools supported the automatic retrieval (from sources such as PubMed, WordNet, IATE, dict.org) of terms as well as the quality checks (e.g. consistency).
 
@@ -136,7 +136,7 @@ Another motivation for automatizing some parts of the process came from the fact
 
 Relying only on automatic tools could be risky; thus, a manual curation component as part of the process should be still be part of the maintenance process.
 
-![Fig. 3](./PBO_pipeline.png)
+![Fig3 \label{Fig3}](./PBO_pipeline.png)
 
 # Results
 
