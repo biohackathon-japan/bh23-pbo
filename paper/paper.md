@@ -174,8 +174,7 @@ Relying only on automatic tools could be risky; thus, a manual curation componen
 
 | PBO ID | Term Name | Equivalent(s) | Definition | Synonym |
 | -------- | -------- | -------- | -------- | -------- |
-| PBO:0000035 | heterosis | 
-- spanish (ES): heterosis [REF:0000014]
+| PBO:0000035 | heterosis | - spanish (ES): heterosis [REF:0000014]
 - french (FR): hétérosis [REF:0000014]
 - dutch (NL): heterosis [REF:0000014]
 - german (DE): Heterosis [REF:0000014]
