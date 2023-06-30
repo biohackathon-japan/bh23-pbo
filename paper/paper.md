@@ -121,9 +121,29 @@ All the 80 key terms have a definition and a reference, which links the entry to
 | Ref. Code | Source Name | Details |
 | -------- | -------- | -------- |
 | REF:0000001 | Random House Unabridged Dictionary | http://dictionary.infoplease.com/ |
-| REF:0000002 | Wiktionary | http://en.wiktionary.org/wiki/Wiktionary:Main_ Page |
+| REF:0000002 | Wiktionary | http://en.wiktionary.org/ |
 | REF:0000003 | Oxford Dictionaries | http://www.oxforddictionaries.com/ |
 | REF:0000004 | American Heritage Dictionary of the English Language, 4th edition | http://americanheritage.yourdictionary.com |
+| REF:0000005 | Collins English Dictionary | http://www.collinsdictionary.com/ |
+| REF:0000006 | Dictionary of Plant Breeding, Second Edition Schlegel, Rolf H. J. | ISBN 978-1-4398-0242-7 |
+| REF:0000007 | Cambridge Advanced Learner's Dictionary | http://dictionary.cambridge.org/ |
+| REF:0000008 | Encyclopaedia Britannica Online | http://www.britannica.com/ |
+| REF:0000009 | Merriam-Webster Online Dictionary | http://www.merriam-webster.com/ |
+| REF:0000010 | Modern Biotechnology | Primrose S.B., Oxford, 1987 |
+| REF:0000011 | Forest Genetics Glossary Charles A. Maynard. State University of New York. College of Environmental Science and Forestry. | http://www.esf.edu/for/maynard/GENE_GLOSS ERY.html |
+| REF:0000012 | Macmillan British English Dictionary | http://www.macmillandictionary.com/ |
+| REF:0000013 | A Glossary for Crop Improvement | T. Nagur, D.L. Oswalt, and Faujdar Singh. International Crops Research Institute for the Semi-Arid Tropics. Patancheru, Andhra Pradesh 502 324, India |
+| REF:0000014 | The IATE (InterActive Terminology for Europe) terminology database | http://iate.europa.eu/ |
+| REF:0000015 | A Dictionary of Genetics (7 ed.) | Robert C. King, William D. Stansfield, and Pamela K. Mulligan. Oxford University Press. ISBN-13: 9780195307610 |
+| REF:0000016 | Macmillan Dictionary of Genetics & Cell Biology | Maclean, Norman. London: Macmillan Reference Books, 1987 |
+| REF:0000017 | Wikipedia | http://en.wikipedia.org/ |
+| REF:0000018 | WordNet | https://wordnet.princeton.edu/ |
+| REF:0000019 | GeneReviews | Pagon RA, Adam MP, Ardinger HH, et al., editors. Seattle (WA): University of Washington, Seattle; 1993-2015. |
+| REF:0000020 | Convention on Biological Diversity | http://www.cbd.int/ |
+| REF:0000021 | Intellectual Property. International Seed Federation. | http://www.worldseed.org/isf/intellectual_prope rty.html |
+| REF:0000022 | FAO TERM PORTAL | http://www.fao.org/faoterm/en/ |
+| REF:0000023 | Biology-Online Dictionary | http://www.biology-online.org/dictionary/ |
+| REF:0000024 | Glossary of Biotechnology for Food and Agriculture - A Revised and Augmented Edition of the Glossary of Biotechnology and Genetic Engineering | Food and Agriculture Organization of the United Nations. ISSN 1020-0541 |
 
 e) Synonyms and derived terms
 
