@@ -130,7 +130,7 @@ All the 80 key terms have a definition and a reference, which links the entry to
 | REF:0000008 | Encyclopaedia Britannica Online | http://www.britannica.com/ |
 | REF:0000009 | Merriam-Webster Online Dictionary | http://www.merriam-webster.com/ |
 | REF:0000010 | Modern Biotechnology | Primrose S.B., Oxford, 1987 |
-| REF:0000011 | Forest Genetics Glossary Charles A. Maynard. State University of New York. College of Environmental Science and Forestry. | http://www.esf.edu/for/maynard/GENE_GLOSS ERY.html |
+| REF:0000011 | Forest Genetics Glossary | Charles A. Maynard. State University of New York. College of Environmental Science and Forestry. http://www.esf.edu/for/maynard/GENE_GLOSSERY.html |
 | REF:0000012 | Macmillan British English Dictionary | http://www.macmillandictionary.com/ |
 | REF:0000013 | A Glossary for Crop Improvement | T. Nagur, D.L. Oswalt, and Faujdar Singh. International Crops Research Institute for the Semi-Arid Tropics. Patancheru, Andhra Pradesh 502 324, India |
 | REF:0000014 | The IATE (InterActive Terminology for Europe) terminology database | http://iate.europa.eu/ |
