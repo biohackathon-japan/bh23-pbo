@@ -38,7 +38,7 @@ group: R3
 git_url: https://github.com/biohackathon-jp/bh23-report-template
 # This is the short authors description that is used at the
 # bottom of the generated paper (typically the first two authors):
-authors_short: First Author \emph{et al.}
+authors_short: Antezana E. \emph{et al.}
 ---
 
 # Abstract
