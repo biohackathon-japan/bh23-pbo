@@ -150,6 +150,6 @@ The resulting network of concepts amounts to almost 2500 entries (see the NoC in
 
 ## Acknowledgements
 
-We would like to thank the fellow participants at BioHackathon 2023 for their collaboration and constructive advice, which greatly influenced our project. We are grateful to the organizers for providing this platform and the opportunity to collaborate.
+We would like to thank the fellow participants of the BioHackathon 2023 for their collaboration and constructive advice, which greatly influenced our project. We are grateful to the funding bodies of the BioHackathon 2023: Database Center for Life Science (DBCLS), Japan Science and Technology Agency (JST) Department of NBDC Program, and Takamatsu Convention & Visitors Bureau.
 
 ## References
