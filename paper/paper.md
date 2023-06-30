@@ -174,8 +174,8 @@ Relying only on automatic tools could be risky; thus, a manual curation componen
 
 | PBO ID | Term Name | Equivalent(s) in other languages | Definition | Synonym |
 | -------- | -------- | -------- | -------- | -------- |
-| PBO:0000035 | heterosis | spanish (ES): heterosis [REF:0000014] <br> french (FR): hétérosis [REF:0000014] <br> dutch (NL): heterosis <br> [REF:0000014] <br> german (DE): Heterosis [REF:0000014] <br> japanese (JP): 雑種強勢 [REF:0000014] | definition text: The increase in such characteristics as size, growth rate, fertility, and yield of a hybrid organism over those of its parents. definition reference: REF:0000008  | hybrid vigour [REF:0000008] |
-| PBO:0000035 | PBO:0000035 | PBO:0000035 | PBO:0000035 | PBO:0000035 |
+| PBO:0000035 | heterosis | spanish (ES): heterosis [REF:0000014] <br> french (FR): hétérosis [REF:0000014] <br> dutch (NL): heterosis <br> [REF:0000014] <br> german (DE): Heterosis [REF:0000014] <br> japanese (JP): 雑種強勢 [REF:0000014] | definition text: The increase in such characteristics as size, growth rate, fertility, and yield of a hybrid organism over those of its parents. <br> definition reference: REF:0000008  | hybrid vigour [REF:0000008] |
+| PBO:0000061 | plant breeding | spanish (ES): fitomejoracion [REF:0000014] <br> french (FR): améliorations végétales  [REF:0000014] <br> dutch (NL): plantenveredeling [REF:0000014] <br> german (DE): Pflanzenzucht [REF:0000014] <br> japanese (JP): 植物育種 [REF:0000014] | definition text: The application of genetic principles and practices to development of individuals or cultivars more suited to the needs of humans; it uses knowledge from agronomy, botany, genetics, cytogenetics, molecular genetics, physiology, pathology, entomology, biochemis- try, or statistics. <br> definition reference: REF:0000006  | breeding [REF:0000014] |
 
 
 
