@@ -92,13 +92,23 @@ The “dumping out” of terms has been manually done: going through selected se
 
 The compilation of the candidate terms produced several terms that were repeated (identical lexemes) and terms that were synonyms of other terms that had been already captured. In those cases, the terms were unified and only one representative was kept. During the compilation, several acronyms appeared often in the literature (e.g. SNP). The most frequent were considered in this work.
 
-The selection of the 80 key terms ensures a balanced coverage of the various sub-domains represented in the resulting compilation. Some terms are very specialized to the domain (e.g., cultivar), while others are more generic (e.g., gene). 
+The selection of the 80 key terms ensures a balanced coverage of the various sub-domains represented in the resulting compilation. Some terms are very specialized to the domain (e.g., cultivar), while others are more generic (e.g., gene).
 
-The Network of Concepts (NoC) was designed so that there are no isolated entries, that is, all of them are somehow connected. Such a connectivity strategy enables to “hop” from one entry to another one through related concepts.
+c) Network of concepts (NoC)
+
+During the “dumping out” process, each candidate term was systematically added to a network of concepts. That network not only captured the terms themselves but also the relationships amongst them. Therefore, related terms were connected through a relationships which could either be hierarchical (sub-type) or simply connectional (i.e. there is a relation between the two terms, which is not hierarchical). Figure 1 shows a part of the network of concepts (NoC).
+
+![Fig. 1](./biohackrxiv.png)
+
+The plant-breeding network of concepts should be read from the top to the down for having a better overview of each entry and its conceptual neighborhood. Concepts that are at the same level of importance or that are somehow comparable are shown at the same horizontal level. On the one hand, the dotted lines between two nodes denote that there is a non-hierarchical relation between them (e.g. is involved in). On the other hand, the arrows connection two nodes denote a subtyping (hierarchical) relation. For the sake of readability, some nodes (shown in red) were duplicated. The length of each relationship has no meaning at all. However, the closer two entries that are connected to the same 3rd entry, the more related they are. 
+
+The NoC was designed so that there are no isolated entries, that is, all of them are somehow connected. Such a connectivity strategy enables to “hop” from one entry to another one through related concepts.
 
 Some nodes have more than 1 relationship connecting it to other terms; however, there are no nodes with more than one hierarchical link to a second generic node.
 
-All the encircled nodes (80 in total) in the NoC are currently part of PBO. The rest (around 170) provide not only a context for the encircled nodes but also complementary information. Image 2 depicts the entire network (due to its complexity and size, it is recommended to instead check the supplementary material to view the details thereof).
+All the encircled nodes (80 in total) in the NoC are currently part of PBO. The rest (around 170) provide not only a context for the encircled nodes but also complementary information. Figure 2 depicts the entire network (due to its complexity and size, it is recommended to instead check the supplementary material to view the details thereof).
+
+![Fug. 2](./biohackrxiv.png)
 
 Organizing the concepts in a graph was essential to fulfill one of the aims of this work: categorize the entries in the ontology. 
 
@@ -131,8 +141,6 @@ Relying on automatic tools could be risky; thus, a manual curation component as 
 1. The 80 core records capture the entries currently held in PBO. All entries have an ID of the form: PBO:nnnnnnn, where nnnnnnn corresponds to a unique number. It is important to note that even though almost all entries are nouns, most of them can also be employed as adjectives with no modification (e.g. inbreeding, mutant). Moreover, some entries may also be used as verbs (e.g. to plant, to phenotype). A separate property captures the term translations in five languages (Spanish, French, Dutch, German, and Japanese) for each record. Each one of the 80 core records has a definition as well as a reference, which corresponds to the source from where the definition was taken (see Table 2). Some entries include synonyms as well as acronyms (which for the sake of simplicity are captured within the same group). Finally, each entry provides a sample context text, where the term (or an inflection thereof) is employed (see excel file).
 
 2. An ontology, named PBO, holding 80 core entries has been produced. This ontology aims at filling a gap in the plant breeding community in a way that the terminology could be findable, accessible, interoperable, and reusable (F.A.I.R). PBO is not intended to compete with ontologies from authoritative bodies or similar resources (e.g., Food and Agriculture Organization [AGROVOC], IATE [IATE], Crop Ontology Shrestha2012CO); on the contrary, it aims at complementing them by providing specially a categorical view of the terminology, which could be used in various languages and enable a better communication among the actors within the plant breeding community. PBO is currently available in OBO and RDF formats - an excel dump is as well available (see supplementary material) so that it could be easily reused, extended and shared. Building this ontology with the aid of specialized computational tools not only fostered the development of the terminological resources but also contributed to their quality and future enrichement.
-
-![Caption for BioHackrXiv logo figure](./biohackrxiv.png)
 
 # Future work
 
