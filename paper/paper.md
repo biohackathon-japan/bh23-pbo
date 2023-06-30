@@ -172,9 +172,10 @@ Relying only on automatic tools could be risky; thus, a manual curation componen
 
 ## h) Sample entries
 
-| PBO ID | Term Name | Equivalent(s) | Definition | Synonym |
+| PBO ID | Term Name | Equivalent(s) in other languages | Definition | Synonym |
 | -------- | -------- | -------- | -------- | -------- |
 | PBO:0000035 | heterosis | spanish (ES): heterosis [REF:0000014] <br> french (FR): hétérosis [REF:0000014] <br> dutch (NL): heterosis <br> [REF:0000014] <br> german (DE): Heterosis [REF:0000014] <br> japanese (JP): 雑種強勢 [REF:0000014] | definition text: The increase in such characteristics as size, growth rate, fertility, and yield of a hybrid organism over those of its parents. definition reference: REF:0000008  | hybrid vigour [REF:0000008] |
+| PBO:0000035 | PBO:0000035 | PBO:0000035 | PBO:0000035 | PBO:0000035 |
 
 
 
