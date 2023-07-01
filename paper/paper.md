@@ -156,7 +156,7 @@ Systematic searches in dictionaries and online resources were manually performed
 
 ## f) A sample context
 
-A sentence showing the usage of each term has been collected. The source of those examples is (refs by Hiromi). Each sentence has been carefully reviewed so that it belongs to the main domain: plant breeding. 
+Sentences showing the usage of each term has been collected. Each sentence has been carefully reviewed so that it belongs to the main domain: plant breeding. This material is available in the original excel file used to compile the core concepts.
 
 ## g) A manual compilation empowered by automatic retrieval 
 
@@ -178,8 +178,6 @@ Relying only on automatic tools could be risky; thus, a manual curation componen
 | PBO:0000061 | plant breeding | spanish (ES): fitomejoracion [REF:0000014] <br><br> french (FR): améliorations végétales  [REF:0000014] <br><br> dutch (NL): plantenveredeling [REF:0000014] <br><br> german (DE): Pflanzenzucht [REF:0000014] <br><br> japanese (JP): 植物育種 [REF:0000014] | definition text: The application of genetic principles and practices to development of individuals or cultivars more suited to the needs of humans; it uses knowledge from agronomy, botany, genetics, cytogenetics, molecular genetics, physiology, pathology, entomology, biochemistry, or statistics. <br><br> definition reference: REF:0000006  | breeding [REF:0000014] |
 | PBO:0000073 | self-fertilization | spanish (ES): autofecundación [REF:0000014] <br><br> french (FR): autofécondation [REF:0000014] <br><br> dutch (NL): zelfbevruchting [REF:0000014] <br><br> german (DE): Selbstbefruchtung [REF:0000014] <br><br> japanese (JP): 植物育種 [REF:0000014] | definition text: Fertilization by the union of male and female gametes from the same individual. <br><br> definition reference: REF:0000018 | | 
 
-
-
 # Results
 
 1. The 80 core records capture the entries currently held in PBO. All entries have an ID of the form: PBO:nnnnnnn, where nnnnnnn corresponds to a unique number. It is important to note that even though almost all entries are nouns, most of them can also be employed as adjectives with no modification (e.g. inbreeding, mutant). Moreover, some entries may also be used as verbs (e.g. to plant, to phenotype). A separate property captures the term translations in five languages (Spanish, French, Dutch, German, and Japanese) for each record. Each one of the 80 core records has a definition as well as a reference, which corresponds to the source from where the definition was taken (see Table 1). Some entries include synonyms as well as acronyms (which for the sake of simplicity are captured within the same group). Finally, each entry provides a sample context text, where the term (or an inflection thereof) is employed (see excel file).
@@ -188,7 +186,7 @@ Relying only on automatic tools could be risky; thus, a manual curation componen
 
 # Future work
 
-The resulting network of concepts amounts to almost 2500 entries (see the NoC in the supplementary data). We expect to cover, in the near future, the entries that were not taken into account in this improvement phase and to come up with a sounder ontology. PBO will be made available in a public ontology repository (e.g., BioPortal), so that it could get improved by experts in the field. The automatic tools that were implemented will be improved and ideally published as a complementary material to the ontology. 
+The resulting network of concepts amounts to more than 2000 entries. We expect to cover, in the near future, the entries that were not taken into account in this improvement phase and to come up with a sounder ontology. PBO will be made available in a public ontology repository (e.g., BioPortal), so that it could get improved by experts in the field as well as the rest of the communinity. The automatic tools that were implemented will be improved and ideally published as a complementary material to the ontology. 
 
 ## Acknowledgements
 
